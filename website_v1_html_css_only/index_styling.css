@@ -1,0 +1,192 @@
+:root {
+    --content-width: 3528px; /* 3.6 * 980 */
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 1465px;
+    background-color: rgba(107, 239, 251, 0.929);
+    position: relative;
+}
+
+.center_header_div {
+    width: var(--content-width);
+    height: 1465px; /* 3.6 * 407 */
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 2;
+}
+
+
+.logo {
+    background-image: url("images_header/logo.png");
+    background-size: contain;
+    width: 313px;
+    height: 115px;
+    position: absolute;
+    top: 170px;
+    right: 465px;
+    z-index: 3;
+    transform: scale(4);
+}
+
+.over_slider {
+    width: 980px;
+    height: 142px;
+    position: absolute;
+    bottom: 185px;
+    left: 1275px;
+    z-index: 3;
+    transform: scale(3.6);
+}
+
+.language_list {
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    bottom: 0px;
+    right: -135px;
+    z-index: 3;
+    transform: scale(0.25);
+}
+
+.gr_button {
+    display: block;
+    background-image: url("images_header/gr_button.png");
+    background-size: contain;
+    background-color: rgba(0, 0, 0, 0);
+    width: 192px;
+    height: 192px;
+}
+
+.br_button {
+    display: block;
+    background-image: url("images_header/br_button.png");
+    background-size: contain;
+    background-color: rgba(0, 0, 0, 0);
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 25px;
+}
+
+.hor_menu {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    position: absolute;
+    bottom: -10px;
+    right: 10px;
+    z-index: 3;
+    font-weight: bold;
+}
+
+.gr_bookings, .gr_photos {
+    color: rgb(0, 26, 194);    
+    text-decoration: none;
+}
+
+.image_slider img {
+    width: 3528px;
+    height: 1465px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.main_content_background {
+    width: 100%;
+    background-color: rgba(107, 239, 251, 0.929);
+    position: relative;
+    bottom: 80px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.main_content_center_background {
+    display: flex;
+    width: 3528px;
+    height: 3500px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 80px;
+    background-color: white;
+}
+
+.navigation_menu {
+    margin: 0;
+    position: relative;
+    padding-left: 0;
+    font-size: 70px;
+    font-weight: bold;
+    text-decoration: none;
+    width: 650px;
+    list-style-type: none;
+}
+
+
+.navigation_button {
+    display: flex;
+    align-items: center;
+    height: 160px;
+    background-color: rgba(107, 239, 251, 0.929);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(to right, white 5%, rgba(107, 239, 251, 0.929));
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.navigation_menu a {
+    text-decoration: none;
+    color: rgb(0, 26, 194);
+    padding-left: 30px; 
+}
+
+.gr_welcome {
+    flex: 1;
+    height: 1700px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.welcome_message {
+    margin: 0;
+    height: 200px;
+    line-height: 200px;
+    padding-left: 45px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.welcome_photos_list {
+    margin-top: 0;
+    margin-bottom: 60px;
+    padding-left: 40px;
+    display: flex;
+    list-style-type: none;
+}
+
+.welcome_photos {
+    margin-right: 40px;
+    width: 890px;
+    height: 580px;
+    border: 15px solid black;
+    vertical-align: middle;
+}
+
+.welcome_text {
+    font-size: 55px;
+    margin: 0;
+    padding-left: 45px;
+}
