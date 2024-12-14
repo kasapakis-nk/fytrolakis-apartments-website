@@ -1,0 +1,3 @@
+This directory contains the initial attempt at replicating the original site. The design closely follows the original, incorporating several enhancements and optimizations for better space utilization. While the CSS file currently includes a significant amount of hard coding, this will be addressed in the next version.
+
+Different versions of the project will be archived and stored in separate folders to easily track the progress rate and compare the quality of my coding skills over time.
